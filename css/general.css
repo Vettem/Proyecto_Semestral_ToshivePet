@@ -9,14 +9,14 @@ header {
     margin-top: 80px;
 }
 
-img {
+.img {
     width: 100%;
     float:right;
     border: 2px solid rgb(151, 151, 155);
     border-radius: 30px;
 }
 
-img:hover {
+.img:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }
 
@@ -35,7 +35,12 @@ div a:hover {
 }
 
 footer {
-    background-color: #222;
+    background-color: #E5B7D2;
     padding: 3rem;
     color: #fff;
+}
+.imgt{
+    width: 100%;
+    max-width: 150px;
+
 }
