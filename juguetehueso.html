@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juguete Hueso</title>
-    <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <title>Planet Dog Hueso</title>
+     <!-- CSS Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,23 +16,36 @@
     <link type="text/css" rel="stylesheet" href="css/general.css" >
 </head>
 <body>
-    <header>
-        <h1>barra nav</h1>
-    </header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="MainMenu.html"><img class="imgt" src="img/LOGO/LOGO TOSHIVEPET.png" alt="sin imagen"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>    
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <div class="container">
-        <!--LOGO-->
-        <div class="row justify-content-center" style="margin-top: 80px;">
-            <div class="col-md-12" style="text-align: left;">
-                <img class="imgt" src="img/LOGO/LOGO TOSHIVEPET.png" alt="Sin imagen">
-            </div>
-        </div>
+       
         <div class="row justify-content-center" style="margin-top: 80px;">
             <div class="col-md-4">
                 <img class="imgp" src="img/juguetes/juguete.png"> 
             </div>
 
-            <div class="col-md-8">
+            <div class="col-md-8" style="text-align: left;">
                 <p>
                     <br>
                     <h3>Planet Dog Hueso</h3>
@@ -44,24 +55,15 @@
                     Planet Dog Hueso es un juguete fabricado con un material no-tóxico y reciclable y con un agradable olor a menta. 
                     Para los masticadores amantes del medio ambiente y de olores deliciosos
                 </p>
+            </div>
         </div>
-
-        </div>
+        
     </div>
-    <br>
+
     <footer>
         <p> Copyright © Toshive Pet 2023 </p>
-    </footer>
+    </footer>  
     <!-- JS Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
