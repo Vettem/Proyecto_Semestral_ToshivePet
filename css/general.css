@@ -48,3 +48,12 @@ footer {
     width: 100%;
     max-width: 500px;
 }
+
+.scrollbar::-webkit-scrollbar{
+    width: 7px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb{
+    background: #E5B7D2;
+    border-radius: 5px;
+}
