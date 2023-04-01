@@ -2,6 +2,9 @@
 body {
     background-color: #f2f5f3;
     font-family: 'Alkatra', cursive;
+    position: relative;
+    padding-bottom: 12rem;
+    min-height: 100vh;
 }
 
 header {
@@ -34,11 +37,6 @@ div a:hover {
     color:rgb(32, 75, 104);
 }
 
-footer {
-    background-color: #E5B7D2;
-    padding: 3rem;
-    color: #fff;
-}
 .imgt{
     width: 100%;
     max-width: 65px;
@@ -56,4 +54,13 @@ footer {
 .scrollbar::-webkit-scrollbar-thumb{
     background: #E5B7D2;
     border-radius: 5px;
+}
+
+footer {
+    background-color: #E5B7D2;
+    padding: 3rem;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
