@@ -71,3 +71,57 @@ h5 {
     color: rgb(224, 188, 120);
 
 }
+
+.container-related-products h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-list-products{
+    display:inline-flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card-img{
+    background: transparent;
+    margin-bottom: 15px;
+
+}
+
+.card-img img{
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+.info-card{
+    display:contents;
+    justify-content:space-between;
+}
+
+.text-product{
+    color: #252525;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.text-product h3{
+    color: inherit;
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.text-product h3:hover{
+    color: #1bbeb4;
+}
+
+.text-product p{
+    color: #666;
+    font-size: 13px;
+}
+
