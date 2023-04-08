@@ -46,6 +46,10 @@ div a:hover {
     width: 100%;
     max-width: 500px;
 }
+.imgpp{
+    width: 100%;
+    max-width: 85px;
+}
 
 .scrollbar::-webkit-scrollbar{
     width: 7px;
@@ -72,38 +76,6 @@ h5 {
 
 }
 
-.container-related-products h2{
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.card-list-products{
-    display:inline-flex;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 200px;
-}
-
-.card{
-    cursor: pointer;
-}
-
-.card-img{
-    background: transparent;
-    margin-bottom: 15px;
-
-}
-
-.card-img img{
-    height: 250px;
-    object-fit: cover;
-    
-}
-
-.info-card{
-    display:contents;
-    justify-content:space-between;
-}
-
 .text-product{
     color: #252525;
     font-weight: 300;
@@ -124,4 +96,11 @@ h5 {
     color: #666;
     font-size: 13px;
 }
-
+.caja{
+    border: 2px solid rgb(151, 151, 155); 
+    border-radius: 25px; 
+    background-color: #fff;
+}
+.caja:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
