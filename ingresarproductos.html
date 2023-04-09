@@ -49,6 +49,47 @@
             </div>
           </div>
         </nav>
+        <div class="container">
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-12">
+                    <h2>Ingresar Productos</h2> 
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-6" style="text-align: center;">
+                    <form action="#" method="post" enctype="multipart/form-data" name="ingresarproductof">
+                        <label>ID Producto: </label><br>
+                        <input class="controls" required name="idproducto" type="text" placeholder="Ingrese el id del producto">
+                        <br>
+                        <label>Nombre de Producto: </label><br>
+                        <input class="controls" required name="nombrep" type="text" placeholder="Ingrese nombre">
+                        <br>
+                        <label>Ingrese Stock: </label><br>
+                        <input class="controls" required name="stockp" type="number" name="stockp" max="150" min="1">
+                        <br>
+                        <label style="margin: 10px;">Fotografia: </label>
+                        <input class="controls" name="fotop" type="file">
+                        <br>
+                        <label>Descripcion: </label><br>
+                        <input class="controls" required name="descp" type="text" name="descp" placeholder="Describa el producto">
+                        <br>
+                        <label>Precio: </label><br>
+                        <input class="controls" required name="preciop" type="number" name="preciop" min="1" value="$">
+                        <br>
+                        <input value="Ingresar" type="submit">
+                        <input value="Limpiar" type="reset">
+                    </form>
+
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+
+        </div>
         <footer>
             <p> Copyright © Toshive Pet 2023 </p>
         </footer>

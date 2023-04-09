@@ -104,3 +104,14 @@ h5 {
 .caja:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }
+.controls{
+    width: 100%;
+    background-color: #d2e2d7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px; solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+
+}
