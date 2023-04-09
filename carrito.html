@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Carrito </title>
+
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+        crossorigin="anonymous">
+
+    <!-- Css -->
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="MainMenu.html"><img class="imgt" src="img/LOGO/LOGO TOSHIVEPET.png" alt="sin imagen"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="inicioSesion.html">Cuenta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Carrito</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Seguimiento</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Buscar">
+              <button class="btn btn-primary" type="button">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <marquee width="100%" direction="left" height="30px" style="background-color: #E5B7D2; color: rgb(49, 53, 53);">
+        Suscribete a nuestra fundación sin fines de lucro, donando directamente a esta y recibe un 5% de descuento en el total de tu compra.
+    </marquee>
+
+
+   <div class="container">
+
+        <div class="row">                        <!-- INICIO A -->
+
+            <div class="col-md-3"></div>
+            <div class="col-md-6" id="a">
+                <img src="img/carrito/carro.png" alt="Sin imagen" width="30px"> 
+                <p>Tu carro de compras (1 producto)</p>
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>                                                                                                   <!-- Fin A -->
+
+        <div class="row justify-content-center">        <!-- INICIO B -->
+
+            <div class="col-md-3"></div>
+
+            <div class="col-md-6" id="b">
+                <h2>Productos</h2>
+                <button style="float:right;"><img src="img/carrito/basurero.png" alt="Sin imagen" width="20px"></button>
+                
+                <p>Hueso de juguete planet Dog:   <span style="color:red">$17990</span></p>
+                <img class="img" src="img/juguetes/huesop.jpg" alt="Sin imagen" width="100px" style="float:left;">
+                <div class="boton">
+                    <p>Cantidad:</p>
+                    <button>-</button>
+                    <button>1</button>
+                    <button>+</button>
+                </div>
+
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>                                                                                                  <!-- Fin B -->
+
+        
+        <div class="row">                                <!-- INICIO C -->
+
+            <div class="col-md-3"></div>
+
+            <div class="col-md-6" id="c">
+                <h4>Resumen de compra</h4>
+                <div style="margin-bottom: 180px;">
+                    <p style="float:left">Costos de tus productos: <br>
+                        Descuentos <br>
+                        Subtotal <br>
+                        Total
+                    </p> 
+                    <span style="float: right;">$17990<br>
+                        $0 <br>
+                        $17990<br>
+                        $17990
+                    </span>
+                </div>
+                
+                
+                <div class="metodo">
+                    Comprar
+                </div>
+            </div>
+
+            <div class="col-md-3"></div>
+        </div>                                                                                                  <!-- Fin C -->
+    </div> 
+
+    <footer>
+        <p> Copyright © Toshive Pet 2023 </p>
+    </footer>
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" 
+        crossorigin="anonymous"></script>
+</body>
+</html>
