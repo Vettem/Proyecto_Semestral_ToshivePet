@@ -1,6 +1,7 @@
 body {
+    font-family: 'Mulish', sans-serif;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 0px;
     color: #2e323c;
     background: #E5B7D2;
     position: relative;
@@ -67,4 +68,10 @@ body {
 .scrollbar::-webkit-scrollbar-thumb{
     background: #E5B7D2;
     border-radius: 5px;
+}
+
+.imgt{
+    width: 100%;
+    max-width: 70px;
+
 }
