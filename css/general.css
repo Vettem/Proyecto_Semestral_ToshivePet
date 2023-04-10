@@ -52,6 +52,7 @@ div a:hover {
 .imgpp{
     width: 100%;
     max-width: 85px;
+    
 }
 
 .scrollbar::-webkit-scrollbar{
@@ -80,31 +81,38 @@ h5 {
 }
 
 .text-product{
+    width: 100%;
     color: #252525;
     font-weight: 300;
     line-height: 1;
 }
 
 .text-product h3{
+    width: 100%;
     color: inherit;
     font-weight: inherit;
     font-size: 20px;
 }
 
 .text-product h3:hover{
+    width: 100%;
     color: #1bbeb4;
 }
 
 .text-product p{
+    width: 100%;
     color: #666;
     font-size: 13px;
 }
 .caja{
+    width: 100%;
     border: 2px solid rgb(151, 151, 155); 
     border-radius: 25px; 
     background-color: #fff;
+    
 }
 .caja:hover{
+    width: 100%;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }
 .controls{
@@ -116,5 +124,10 @@ h5 {
     border: 1px;
     font-family: 'calibri';
     font-size: 18px;
+
+}
+.imgs{
+    width: 100%;
+    max-width: 800px;
 
 }
