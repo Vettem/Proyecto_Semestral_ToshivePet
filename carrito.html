@@ -21,18 +21,21 @@
     <link type="text/css" rel="stylesheet" href="css/styles.css">
 
 </head>
-<body>
-
+<body class="scrollbar">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="MainMenuUser.html"><img class="imgt" src="img/LOGO/toshivelogo2.png" alt="sin imagen"></a>
+          <a class="navbar-brand" href="MainMenu.html"><img class="imgt" src="img/LOGO/toshivelogo2.png" alt="sin imagen"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="inicioSesion.html">Cuenta</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cuenta</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="registroAlternativo.html">Registrate</a></li>
+                        <li><a class="dropdown-item" href="iniciosesionAlternativo.html">Inicia Sesion</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="carrito.html">Carrito</a>
