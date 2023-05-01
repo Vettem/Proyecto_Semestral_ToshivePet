@@ -40,11 +40,11 @@ $("document").ready(function() {
         msj += "Su donacion debe ser un valor numérico mayor o igual a $1.000<br>";
         enviar = true;
       }
-  
+
       if (enviar) {
-        $("#warnings").html(msj);
+        $("#sub").html(msj);
       } else {
-        $("#warnings").html("Suscripcion exitosa");
+        $("#sub").html("Suscripcion exitosa");
         this.submit();
         // Aquí puedes enviar el formulario
         // Ejemplo:

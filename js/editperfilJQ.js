@@ -2,7 +2,7 @@
 $("document").ready(function(){
     $("#formRegistro").submit(function(e){
         e.preventDefault();
-        var nombreCompleto = $("#fullname").val();
+        var nombre = $("#fullname").val();
         var email = $("#email").val();
         var telefono = $("#phone").val();
         var clave = $("#pass").val();
