@@ -12,7 +12,7 @@ formulario.addEventListener('submit', e =>{
     let enviar = false;
 
     if(nombrepro.value.length < 4 || nombrepro.value.length > 50){
-        msj = msj + "El nombre debe estar entre 4 y 50 caracteres";
+        msj = msj + "* El nombre debe estar entre 4 y 50 caracteres";
         enviar = true;
 
     }
