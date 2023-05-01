@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!-- Css -->
     <link type="text/css" rel="stylesheet" href="css/perfil.css" />
+    <!-- Jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -27,31 +29,32 @@
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
             <div class="card h-100">
                 <div class="card-body">
-                    <div class="row gutters">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="col-md-12" id="form1">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <h6 class="mb-2 text-primary">Recupera tu Contraseña</h6>
                         </div>
                         <form action="#" method="post" enctype="multipart/form-data" name="form1">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div class="form-group">
                                     <label for="eMail">Email</label>
-                                    <input required type="email" class="form-control" id="eMail" placeholder="Ingresar correo electronico">
+                                    <input required type="email" class="form-control" id="email" placeholder="Ingresar correo electronico">
                                 </div>
                             </div>
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div class="form-group">
                                     <label for="password">Contraseña</label>
-                                    <input required type="password" class="form-control" id="pass" placeholder="Ingresa la nueva contraseña">
+                                    <input required type="password" class="form-control" id="password" placeholder="Ingresa la nueva contraseña">
                                 </div>
                             </div>
                             <input style="margin-top: 15px;" value="Guardar contraseña" type="submit" class="btn btn-primary">
+                            <p class="warnings" id="warnings"></p>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    <script src="js/iniciosesionJQ.js"></script>
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
