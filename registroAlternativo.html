@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!-- Css -->
     <link type="text/css" rel="stylesheet" href="css/perfil.css" />
+    <!-- Jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body class="scrollbar">
     <!--Barra Navegacion-->
@@ -35,29 +37,29 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                     <h6 class="mb-2 text-primary">Datos Personales</h6>
                                 </div>
-                                <form action="#" method="post" enctype="multipart/form-data" name="form1">
+                                <form action="#" method="post" enctype="multipart/form-data" name="form1" id="formRegistro">
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="fullName">Nombre Completo</label>
-                                            <input required type="text" class="form-control" name="fullName" placeholder="Ingresar nombre completo">
+                                            <input id="fullname" required type="text" class="form-control" name="fullName" placeholder="Ingresar nombre completo">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="eMail">Email</label>
-                                            <input type="email" class="form-control" id="eMail" placeholder="Ingresar correo electronico">
+                                            <input type="email" required class="form-control" id="email" placeholder="Ingresar correo electronico">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="phone">Telefono</label>
-                                            <input type="text" class="form-control" id="phone" placeholder="Ingresar numero telefonico">
+                                            <input type="number" required class="form-control" id="phone" placeholder="Ingresar numero telefonico" pattern="[0-9]+">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="password">Contraseña</label>
-                                            <input type="password" class="form-control" id="pass" placeholder="Ingresar Contraseña">
+                                            <input type="password" required class="form-control" id="pass" placeholder="Ingresar Contraseña">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -66,31 +68,31 @@
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="Street">Calle</label>
-                                            <input type="name" class="form-control" id="Street" placeholder="Calle/Pasaje">
+                                            <input type="text" required class="form-control" id="Street" placeholder="Calle/Pasaje">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="ciTy">Comuna</label>
-                                            <input type="name" class="form-control" id="ciTy" placeholder="Ingresar Comuna">
+                                            <input type="text" required class="form-control" id="ciTy" placeholder="Ingresar Comuna">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="sTate">Region</label>
-                                            <input type="text" class="form-control" id="sTate" placeholder="Ingresar Region">
+                                            <input type="text" required class="form-control" id="sTate" placeholder="Ingresar Region">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label for="zIp">Codigo Postal</label>
-                                            <input type="text" class="form-control" id="zIp" placeholder="Ingresar Codigo Postal">
+                                            <input type="number" required class="form-control" id="zIp" placeholder="Ingresar Codigo Postal" pattern="[0-9]+">
                                         </div>
                                     </div>
                                     <input style="margin-top: 15px;" value="Guardar" type="submit" class="btn btn-primary">
                                     <a href="MainMenuUser.html"><button style="margin-top: 15px;" type="button" id="submit" name="submit" class="btn btn-secondary">Continuar</button></a>
                                     <a href="suscripcion_ong.html"><button style="margin-top: 15px;" type="button" id="submit" name="submit" class="btn btn-danger">Suscribete</button></a>
-
+                                    <p class="warnings" id="warnings"></p>
                                 </form>
                             </div>
                     </div>
@@ -99,6 +101,8 @@
         </div> 
     </div>
     
+    
+    <script src="js/RegistroJQ.js"></script>
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
