@@ -42,11 +42,14 @@ $("document").ready(function(){
             enviar = true;
         }
 
+
         if(enviar){
             $("#warnings").html(msj);
         }
         else{
             $("#warnings").html("Perfil editado correctamente");
         }
+
     });
+    
 });
