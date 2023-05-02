@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!--Css-->
     <link type="text/css" rel="stylesheet" href="css/perfil.css" />
+    <!-- Jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body class="scrollbar">
     <!--Barra Navegacion-->
@@ -53,36 +55,29 @@
                                     <h6 class="mb-2 text-primary">Datos Personales</h6>
                                 </div>
                                 <form action="#" method="post" enctype="multipart/form-data" name="form1">
-
                                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" style="float: left;">
                                             <label>Nombre</label>
-                                            <input required name="nombre" type="text" value="Baljeet" placeholder="Ingrese su nombre">
+                                            <input id="nombre" required type="text" class="form-control" name="nombre" placeholder="Ingrese su nombre">
                                         </div>
-                    
                                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" style="float: right;">
                                             <label>Apellido </label>
-                                            <input required type="text" name="clave" value="Tjinder" placeholder="Ingrese su apellido" maxlength="8">
-                                        </div>
+                                            <input id="apellido" required type="text" class="form-control" name="apellido" placeholder="Ingrese su nombre">                                        </div>
                     
                                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" style="float: left;">
                                             <label>Correo Electronico </label>
-                                            <input required type="text" name="correo" value="baljeet@tjinder.com" placeholder="user@gmail.com" maxlength="">
-                                        </div>
+                                            <input id="email" required type="text" class="form-control" name="email" placeholder="Ingrese su nombre">                                        </div>
 
                                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" style="float: right;">
                                             <label>Contraseña </label>
-                                            <input required type="password" name="passW" placeholder="Ingrese su clave" maxlength="8">
-                                        </div>
+                                            <input type="password" id="pass" required type="text" class="form-control" name="pass" placeholder="Ingrese su nombre">                                        </div>
                     
                                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" style="float: left;">
                                             <label>Telefono </label>
-                                            <input required type="text" name="phone" value="56956892122" placeholder="+569" pattern="[0-9]+" minlength="9" maxlength="12">
-                                        </div>
+                                            <input id="phone" required type="text" class="form-control" name="phone" placeholder="Ingrese su nombre">                                        </div>
                     
                                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" style="float: right;">
                                             <label>Direccion</label>
-                                            <input required type="text" name="direccion" value="O'Higgins 432" placeholder="ingrese su direccion">
-                                        </div>
+                                            <input id="adress" required type="text" class="form-control" name="adress" placeholder="Ingrese su nombre">                                        </div>
                                         <input style="margin-top: 15px;" value="Guardar" type="submit" class="btn btn-primary">
                                         <a href="MainMenuUser.html"><button style="margin-top: 15px;" type="button" id="submit" name="submit" class="btn btn-secondary">Continuar</button></a>
                                         <p class="warnings" id="warnings"></p>
