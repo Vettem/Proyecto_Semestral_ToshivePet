@@ -26,7 +26,7 @@ $("document").ready(function(){
             $("#warnings").html(msj);
         }
         else{
-            $("#warnings").html("Enviado");
+            $("#warnings").html("Inicio de sesion exitoso");
         }
 
     });
