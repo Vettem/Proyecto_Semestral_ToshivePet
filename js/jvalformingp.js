@@ -1,7 +1,7 @@
 var iding = document.getElementById("idingp");
 var nombreing = document.getElementById("nombreingp");
 var stocking = document.getElementById("stockingp");
-var fotop = document.getElementById("fotoingp");
+var fotop = document.getElementsByClassName("fotoingp");
 var descping = document.getElementById("descpingp");
 var precioing = document.getElementById("precioingp");
 
